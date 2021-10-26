@@ -22,13 +22,14 @@ export default function PrimarySearchAppBar() {
         24 ONLINE
       </Typography>
       <Box>
-        <Box>
+        <Box></Box>
+        {/* <Box>
           <IconButton size='large' aria-label='show 17 new notifications'>
             <Badge badgeContent={1} color='error'>
               <ShoppingBagOutlinedIcon />
             </Badge>
           </IconButton>
-        </Box>
+        </Box> */}
       </Box>
     </Toolbar>
   );
